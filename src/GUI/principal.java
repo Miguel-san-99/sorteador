@@ -192,8 +192,8 @@ public class principal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnSortearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSortearActionPerformed
-        int mes = cmbMeses.getSelectedIndex();
-        int cantGanadores = spGana
+        String mes = (String) cmbMeses.getSelectedItem();
+        System.out.println(mes);
     }//GEN-LAST:event_btnSortearActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
